@@ -13,12 +13,14 @@ public class Main {
 
         StringReverse rev = new StringReverse();
         StackBased mriganka = new StackBased();
+        QueueAndStackApproach prity = new QueueAndStackApproach();
 
         String sem = sc.nextLine();
 
         System.out.println(hard.uc2(sem));
         System.out.println("The reversed part is "+rev.uc3(sem));
         System.out.println("The stack based is: "+ mriganka.isPalindromeButWIthStack(sem));
+        System.out.println("The queue and stack based approach is: "+ prity.isPalindrome(sem));
 
     }
 }
