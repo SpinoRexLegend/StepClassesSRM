@@ -14,6 +14,7 @@ public class Main {
         StringReverse rev = new StringReverse();
         StackBased mriganka = new StackBased();
         QueueAndStackApproach prity = new QueueAndStackApproach();
+        DequeBasedApproach poulami = new DequeBasedApproach();
 
         String sem = sc.nextLine();
 
@@ -21,6 +22,7 @@ public class Main {
         System.out.println("The reversed part is "+rev.uc3(sem));
         System.out.println("The stack based is: "+ mriganka.isPalindromeButWIthStack(sem));
         System.out.println("The queue and stack based approach is: "+ prity.isPalindrome(sem));
+        System.out.println("The deque based approach is: "+ poulami.isPalindrome(sem));
 
     }
 }
