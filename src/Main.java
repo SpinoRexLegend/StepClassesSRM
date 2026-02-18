@@ -9,12 +9,16 @@ public class Main {
         System.out.println("System initiated successfully");
 
         HardcodedPalindrome hard = new HardcodedPalindrome();
-        System.out.println("Please enter a string u wanna check");
+        System.out.println("Please enter a string u wanna check:\n");
 
         StringReverse rev = new StringReverse();
+        StackBased mriganka = new StackBased();
 
-        System.out.println(hard.uc2(sc.nextLine()));
-        System.out.println("The reversed part is "+rev.uc3(sc.nextLine()));
+        String sem = sc.nextLine();
+
+        System.out.println(hard.uc2(sem));
+        System.out.println("The reversed part is "+rev.uc3(sem));
+        System.out.println("The stack based is: "+ mriganka.isPalindromeButWIthStack(sem));
 
     }
 }
