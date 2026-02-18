@@ -11,7 +11,10 @@ public class Main {
         HardcodedPalindrome hard = new HardcodedPalindrome();
         System.out.println("Please enter a string u wanna check");
 
+        StringReverse rev = new StringReverse();
+
         System.out.println(hard.uc2(sc.nextLine()));
+        System.out.println("The reversed part is "+rev.uc3(sc.nextLine()));
 
     }
 }
