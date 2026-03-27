@@ -14,6 +14,6 @@ public class Unit1 {
         System.out.println("Final list: " + bogies);
         //No comment, class Unit2, easy readable simple variables, no main method
         //No hardcoded value, only user input values
-        //Write separate functions please
+        //Write separate functions please and make it easy
     }
 }
